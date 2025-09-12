@@ -1,0 +1,6 @@
+Bold Summand,Fermat Summand,m,Structure,Generators
+,1+2,15,Z2 x Z4,"< 11, 7 >"
+0,1+2,30,Z2 x Z4,"< 11, 7 >"
+1,2,20,Z2 x Z4,"< 11, 3 >"
+2,1,24,(Z2)^3,"< 5, 7, 13 >"
+3,,16,Z2 x Z4,"< 7, 3 >"
