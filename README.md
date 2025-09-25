@@ -15,18 +15,16 @@ All of the generator data is stored in the directory named `Data`.
 A given .csv file in that directory has filename of the form:
 `n.csv`, according to the order of 2^n. 
 ### Step 3
-Import the main.py code into ApacheNetBeans18. In a group order of 2^n, we initialize a group of that group order:
+Import the main.py code into your chosen IDE. In a group order of 2^n, we initialize a group of that group order.
 
 The Python algorithm uses the user-input variables `groupOrder and modBase `.
 
 Generate a list of group elements.
 The group elements generated are the numbers that range from `1` to `n-1` that are relatively prime to n.
-This is stored in the group element list `elementList = []`.
+This is stored `elementList`.
 
-Identify group elements that correspond to the order given in the classification of U (m). 
-Find group elements with orders equal to the values a_i for
-`1 ≤ i ≤ n in U (m) ∼= Z_2^(a1) × Z_2^(a2) × · · · × Z_2^(an)`. 
-For example, stored in Order 2 Elements code, edit the code for orders 4, 8, etc. that are needed. 
+Identify group elements that correspond to the order given in the classification of U(m) given `U(m) ∼= Z_2^(a1) × Z_2^(a2) × · · · × Z_2^(an)`. 
+In `main.py`, we give an example generating elements of order 2, stored in order2Elements. You can edit the code for orders 4, 8, etc. that are needed. 
 
 Multiply the cyclic subgroups with each another to generate all possible group elements. 
 Multiply all elements of the cyclic subgroups with each other. After performing the multiplication between all elements of the cyclic subgroups,
