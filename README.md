@@ -24,6 +24,10 @@ This is stored `elementList`.
 Identify group elements that correspond to the order given in the classification of U(m) given the structure of U(m) as defined by the Fundamental Theorem of Finite Abelian Groups. 
 In `main.py`, we give an example generating elements of order 2, stored in `order2Elements`. You can edit the code for orders 4, 8, etc. that are needed. 
 
+Generate cyclic subgroups.
+`modList` will generate the cyclic subgroup for what is set for base. Take the element of the desired order and set it equal to base. 
+The cyclic subgroup is store in `modList`.
+
 Multiply the cyclic subgroups with each another to generate all possible group elements. 
 Multiply all elements of the cyclic subgroups with each other. After performing the multiplication between all elements of the cyclic subgroups,
 if these elements were indeed generators of the group, then there were `2^n` unique values that corresponded to the
