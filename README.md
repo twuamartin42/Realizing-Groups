@@ -19,7 +19,7 @@ Import the `main.py` code into your chosen IDE. The Python algorithm uses the us
 ### Step 4
 Generate a list of group elements.
 The group elements generated are the numbers that range from `1` to `n-1` that are relatively prime to n.
-This is stored `elementList`.
+This is stored in `elementList`.
 ### Step 5
 Identify group elements that correspond to the order given in the classification of U(m) given the structure of U(m) as defined by the Fundamental Theorem of Finite Abelian Groups. 
 In `main.py`, we give an example generating elements of order 2, stored in `order2Elements`. This can be edited for orders 4, 8, etc. as needed. 
