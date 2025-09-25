@@ -15,7 +15,7 @@ All of the generator data is stored in the directory named `Data`.
 A given .csv file in that directory has filename of the form:
 `n.csv`, according to the order of 2^n. 
 ### Step 3
-Import the `main.py` code into your chosen IDE. The Python algorithm uses the user-input variables `groupOrder and modBase `.
+Import the `main.py` code into your chosen IDE. The Python algorithm uses the user-input variables `groupOrder`, `modBase`, `base`, and `coefficient`.
 
 Generate a list of group elements.
 The group elements generated are the numbers that range from `1` to `n-1` that are relatively prime to n.
@@ -29,6 +29,5 @@ Generate cyclic subgroups.
 The cyclic subgroup is store in `modList`.
 
 Multiply the cyclic subgroups with each another to generate all possible group elements. 
-Multiply all elements of the cyclic subgroups with each other. After performing the multiplication between all elements of the cyclic subgroups,
-if these elements were indeed generators of the group, then there were `2^n` unique values that corresponded to the
-group elements identified when generating the list fo group elements.
+Multiply all elements of the cyclic subgroups with each other. 
+After performing the multiplication between all elements of the cyclic subgroups, if these elements were indeed generators of the group, then there were `2^n` unique values that corresponded to the group elements identified when generating the list fo group elements.
