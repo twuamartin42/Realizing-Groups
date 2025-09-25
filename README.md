@@ -15,7 +15,7 @@ All of the generator data is stored in the directory named `Data`.
 A given .csv file in that directory has filename of the form:
 `n.csv`, according to the order of 2^n. 
 ### Step 3
-Import the main.py code into your chosen IDE. In a group order of 2^n, we initialize a group of that group order.
+Import the `main.py` code into your chosen IDE. In a group order of 2^n, we initialize a group of that group order.
 
 The Python algorithm uses the user-input variables `groupOrder and modBase `.
 
