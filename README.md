@@ -26,8 +26,7 @@ This is stored in the group element list `elementList = []`.
 Identify group elements that correspond to the order given in the classification of U (m). 
 Find group elements with orders equal to the values a_i for
 `1 ≤ i ≤ n in U (m) ∼= Z_2^(a1) × Z_2^(a2) × · · · × Z_2^(an)`. 
-To obtain group elements of these orders, raise groups element to successive powers `mod m` until `1 mod m` is obtained. 
-This process will generate the cyclic subgroup of the group element.
+For example, stored in Order 2 Elements code, edit the code for orders 4, 8, etc. that are needed. 
 
 Multiply the cyclic subgroups with each another to generate all possible group elements. 
 Multiply all elements of the cyclic subgroups with each other. After performing the multiplication between all elements of the cyclic subgroups,
