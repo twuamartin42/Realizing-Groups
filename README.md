@@ -1,7 +1,7 @@
 # Realizing-Groups
 
 ## Project Overview
-This is a repository for the research project Structures of Groups of order 2^n Realized by Groups of Units 
+This is a repository for the research project A Study on the Variety of Structures of Groups of Units of Order 2^n 
 with code is dedicated to compute examples of generators for the groups U(m) with order up to 2^15.
 
 ## Example of use with Python Algorithm:
