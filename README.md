@@ -23,7 +23,7 @@ Generate a list of group elements.
 The group elements generated are the numbers that range from `1` to `n-1` that are relatively prime to n.
 This is stored `elementList`.
 
-Identify group elements that correspond to the order given in the classification of U(m) given `U(m) ∼= Z_2^(a1) × Z_2^(a2) × · · · × Z_2^(an)`. 
+Identify group elements that correspond to the order given in the classification of U(m) given the structure of U(m) as defined by the Fundamental Theorem of Finite Abelian Groups. 
 In `main.py`, we give an example generating elements of order 2, stored in order2Elements. You can edit the code for orders 4, 8, etc. that are needed. 
 
 Multiply the cyclic subgroups with each another to generate all possible group elements. 
