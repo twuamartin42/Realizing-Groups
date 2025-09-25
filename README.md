@@ -1,12 +1,12 @@
 # Realizing-Groups
 
 ## Project Overview
-This is a repository for the research project A Study on the Variety of Structures of Groups of Units of Order 2^n 
-with code is dedicated to compute examples of generators for the groups U(m) with order up to 2^15.
+This is a repository for the research project "A Study on the Variety of Structures of Groups of Units of Order 2^n," 
+with code dedicated to compute examples of generators for the groups U(m) with order up to 2^15.
 
 ## Example of use with Python Algorithm:
 ### Step 1
-Install Python and Apache NetBeans 18. Follow the documentation found in these links *insert links for installation*. 
+Install Python and your chosen IDE. Follow the documentation found in these links *insert links for installation*. 
 ### Step 2
 Fetch required files. One can clone the repository via git:
 `git clone https://github.com/twuamartin42/Realizing-Groups.git`
@@ -17,12 +17,11 @@ A given .csv file in that directory has filename of the form:
 ### Step 3
 Import the main.py code into ApacheNetBeans18. In a group order of 2^n, we initialize a group of that group order:
 
-The Python algorithm used the user-input variables `groupOrder = 2^n and modBase = m.`
+The Python algorithm uses the user-input variables `groupOrder and modBase `.
 
 Generate a list of group elements.
-`groupOrder = 2^n and modBase = m.`
-The group elements generated are the numbers that range from `1` to `n-1` that are relatively prime to n. A list of group
-elements were genereated using a function that calculated greatest common divisor.
+The group elements generated are the numbers that range from `1` to `n-1` that are relatively prime to n.
+This is stored in the group element list `elementList = []`.
 
 Identify group elements that correspond to the order given in the classification of U (m). 
 Find group elements with orders equal to the values a_i for
