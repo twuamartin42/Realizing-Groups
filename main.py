@@ -9,6 +9,11 @@ print(coefficient)
 
 ########################## group elements #########################
 
+def myGCD(a, b):
+    while b:
+        a, b = b, a % b
+    return abs(a)
+
 elementList = []
 i = 1
 while (i < modBase):
@@ -52,4 +57,5 @@ while (count < len(modList)):
     count += 1
 print(productList)
 print(len(productList))
+
 
