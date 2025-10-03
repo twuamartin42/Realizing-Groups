@@ -18,7 +18,7 @@ Identify group elements that correspond to the order given in the classification
 In `main.py`, we give an example generating elements of order 2, stored in `order2Elements`. This can be edited for orders 4, 8, etc. as needed. 
 ### Step 5
 Generate cyclic subgroups.
-`modList` will generate the cyclic subgroup for what is set for base. Take the element of the desired order and set it equal to base. 
+`modList` will generate the cyclic subgroup for the value set as base. Take the element of the desired order and set it equal to base. 
 The cyclic subgroup is stored in `modList`.
 ### Step 6
 Multiply all elements of the cyclic subgroups with each other. 
