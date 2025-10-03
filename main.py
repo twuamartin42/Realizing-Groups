@@ -31,7 +31,7 @@ for i in range(1,modBase):
     if check == 1:
         order2Elements += [i]
 print("Elements of order 2:")
-print(orderElements)
+print(order2Elements)
 
 ########################## cyclic subgroups #########################
 
@@ -57,6 +57,7 @@ while (count < len(modList)):
     count += 1
 print(productList)
 print(len(productList))
+
 
 
 
