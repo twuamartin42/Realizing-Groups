@@ -29,7 +29,7 @@ order2Elements = []
 for i in range(1,modBase):
     check = (i*i%modBase)
     if check == 1:
-        orderElements += [i]
+        order2Elements += [i]
 print("Elements of order 2:")
 print(orderElements)
 
@@ -57,5 +57,6 @@ while (count < len(modList)):
     count += 1
 print(productList)
 print(len(productList))
+
 
 
