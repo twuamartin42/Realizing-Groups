@@ -3,7 +3,7 @@
 groupOrder = 2^n
 modBase = m
 
-base = 5
+base = 1
 coefficient = (1*1 % modBase) * (1*1 % modBase) % modBase
 print(coefficient)
 
@@ -52,3 +52,4 @@ while (count < len(modList)):
     count += 1
 print(productList)
 print(len(productList))
+
