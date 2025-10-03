@@ -6,7 +6,7 @@ with code dedicated to compute examples of generators for the groups U(m) with o
 
 ## Example of use with Python Algorithm:
 ### Step 1
-Install Python and your chosen IDE. Follow the documentation found in these links *insert links for installation*. 
+Install Python and your chosen IDE. 
 ### Step 2
 Import the `main.py` code into your chosen IDE. The Python algorithm uses the user-input variables `groupOrder`, `modBase`, `base`, and `coefficient`.
 ### Step 3
